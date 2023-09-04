@@ -61,8 +61,16 @@ class ProductManager {
 const productos = new ProductManager
 
 // Agregar productos
-//productos.addProduct("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25)
-//productos.addProduct("producto prueba2", "Este es un producto prueba2", 300, "Sin imagen2", "abc1234", 30)
+/* productos.addProduct("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25)
+productos.addProduct("producto prueba2", "Este es un producto prueba2", 300, "Sin imagen2", "abc1234", 30)
+productos.addProduct("producto prueba3", "Este es un producto prueba3", 350, "Sin imagen3", "abc12345", 50)
+productos.addProduct("producto prueba4", "Este es un producto prueba4", 400, "Sin imagen4", "abc123456", 20)
+productos.addProduct("producto prueba5", "Este es un producto prueba5", 500, "Sin imagen5", "abc1234567", 10)
+productos.addProduct("producto prueba6", "Este es un producto prueba6", 300, "Sin imagen6", "abc30", 50)
+productos.addProduct("producto prueba7", "Este es un producto prueba7", 200, "Sin imagen7", "abc31", 20)
+productos.addProduct("producto prueba8", "Este es un producto prueba8", 100, "Sin imagen8", "abc4", 30)
+productos.addProduct("producto prueba9", "Este es un producto prueba9", 150, "Sin imagen9", "abc41", 70)
+productos.addProduct("producto prueba10", "Este es un producto prueba10", 30, "Sin imagen10", "abc34", 5) */
 
 // productos.getProducts()
 
@@ -73,7 +81,7 @@ const productos = new ProductManager
 // productos.deleteProductsById(2)
 
 //Sustituir producto con un mismo Id
-productos.updateProducts({
+/* productos.updateProducts({
     title: 'producto prueba nuevo',
     description: 'Este es un producto prueba nuevo',
     price: 2000,
@@ -81,4 +89,4 @@ productos.updateProducts({
     code: 'abc123',
     stock: 30,
     id: 2
-})
+}) */

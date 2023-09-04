@@ -1,3 +1,24 @@
 {
-    "type":"module"
+  "type": "module",
+  "name": "tercer-desafio-entregable",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riquelmecata/DESAFIO-BACKEND-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riquelmecata/DESAFIO-BACKEND-2/issues"
+  },
+  "homepage": "https://github.com/riquelmecata/DESAFIO-BACKEND-2#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
