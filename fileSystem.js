@@ -37,7 +37,7 @@ class ProductManager {
             console.log("Producto no encontrado")
         } else {
             console.log(findId.find(product => product.id === id))
-
+ 
         }
 
     }
