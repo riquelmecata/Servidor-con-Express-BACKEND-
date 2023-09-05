@@ -1,6 +1,6 @@
 import {promises as fs} from "fs"
 
-class ProductManager {
+export default class ProductManager {
     constructor() {
         this.patch = "./products.txt"
         this.products = []
@@ -58,7 +58,7 @@ class ProductManager {
     }
 }
 
-const productos = new ProductManager
+
 
 // Agregar productos
 /* productos.addProduct("producto prueba", "Este es un producto prueba", 200, "Sin imagen", "abc123", 25)
